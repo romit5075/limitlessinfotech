@@ -1,7 +1,7 @@
 /* UnderConstruction.css */
-body{
+/* body{
 overflow: hidden;
-}
+} */
 .under-construction {
     display: flex;
     flex-direction: column;
@@ -10,6 +10,7 @@ overflow: hidden;
     min-height: 100vh;
     background: linear-gradient(to right, #56ccf2, #2f80ed);
     color: white;
+    overflow: hidden;
   }
   
   .header {
