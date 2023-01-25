@@ -1,0 +1,71 @@
+/* UnderConstruction.css */
+body{
+overflow: hidden;
+}
+.under-construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+    color: white;
+  }
+  
+  .header {
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+   
+  }
+  
+  .header h1 {
+    margin: 0rem 0rem   0rem 2rem   ;
+  }
+
+ 
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .message {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .countdown-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  #countdown {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  /* .footer {
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    margin: 0rem 0rem 0rem 2rem;
+  } */
+  
