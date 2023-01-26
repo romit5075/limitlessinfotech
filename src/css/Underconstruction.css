@@ -59,7 +59,7 @@ overflow: hidden;
   
   /* h1 tage animation */
   .cname {
-    transition: transform 1s;
+    transition: transform 5s;
   }
   
   .cname:hover {
