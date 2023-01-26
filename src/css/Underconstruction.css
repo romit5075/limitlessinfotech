@@ -58,11 +58,11 @@ overflow: hidden;
   }
   
   /* h1 tage animation */
-  .animated {
+  .cname {
     transition: transform 1s;
   }
   
-  .animated:hover {
+  .cname:hover {
     transform: scale(1.2);
   }
 
