@@ -1,10 +1,11 @@
 import UnderConstruction from './components/Underconstruction.jsx';
-
+import Animation from './components/Animation.jsx';
 function App() {
   return (
     <div>
      <UnderConstruction/>
-    </div>
+     {/* <Animation /> */}
+      </div>
   );
 }
 

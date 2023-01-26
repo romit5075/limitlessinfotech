@@ -1,7 +1,7 @@
 /* UnderConstruction.css */
-body{
+/* body{
 overflow: hidden;
-}
+} */
 .under-construction {
     display: flex;
     flex-direction: column;
@@ -10,6 +10,7 @@ overflow: hidden;
     min-height: 100vh;
     background: linear-gradient(to right, #56ccf2, #2f80ed);
     color: white;
+    overflow: hidden;
   }
   
   .header {
@@ -35,6 +36,7 @@ overflow: hidden;
     justify-content: center;
     flex: 1;
     padding: 1rem;
+    animation: fade-in 1s ease-in;
   }
   
   .title {
@@ -48,24 +50,19 @@ overflow: hidden;
     font-size: 1.5rem;
     text-align: center;
   }
-  .countdown-timer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-  }
-  #countdown {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  /* .footer {
-    width: 100%;
-    background: #333;
-    color: white;
-    text-align: left;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    margin: 0rem 0rem 0rem 2rem;
-  } */
   
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* h1 tage animation */
+  .animated {
+    transition: transform 1s;
+  }
+  
+  .animated:hover {
+    transform: scale(1.2);
+  }
+  
+ 
