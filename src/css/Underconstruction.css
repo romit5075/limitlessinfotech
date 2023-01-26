@@ -51,7 +51,7 @@ overflow: hidden;
     text-align: center;
   }
 
-  h1 {
+ .cname{
   animation: animateText 2s ease-in-out;
 }
 
