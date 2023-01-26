@@ -5,7 +5,7 @@ const Underconstruction = () => {
   return (
     <div className="under-construction">
       <header className="header">
-        <h1 >LimitLess Infotech</h1>
+        <h1 ClassName="cname">LimitLess Infotech</h1>
       </header>
       <main className="main-content">
         <h1 className="title">Under Construction</h1>
