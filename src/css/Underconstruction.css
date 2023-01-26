@@ -49,24 +49,4 @@ overflow: hidden;
     font-size: 1.5rem;
     text-align: center;
   }
-  .countdown-timer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-  }
-  #countdown {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  /* .footer {
-    width: 100%;
-    background: #333;
-    color: white;
-    text-align: left;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    margin: 0rem 0rem 0rem 2rem;
-  } */
-  
+
