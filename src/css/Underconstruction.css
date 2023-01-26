@@ -50,19 +50,15 @@ overflow: hidden;
     font-size: 1.5rem;
     text-align: center;
   }
-  
-  @keyframes fade-in {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  .countdown-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
   }
-  
-  /* h1 tage animation */
-  .animated {
-    transition: transform 1s;
-  }
-  
-  .animated:hover {
-    transform: scale(1.2);
+  #countdown {
+    font-size: 2rem;
+    font-weight: bold;
   }
   /* .footer {
     width: 100%;
