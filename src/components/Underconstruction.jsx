@@ -9,7 +9,7 @@ const Underconstruction = () => {
       </header>
       <main className="main-content">
         <h1 className="title">Under Construction</h1>
-        <p className="message">We apologize for the. Our website is currently under   . Please check back later.</p>
+        <p className="message">We apologize for the inconvenience. Our website is currently under maintenance. Please check back later</p>
       </main>
     </div>
   );
